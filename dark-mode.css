@@ -1,0 +1,121 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .logo,
+.dark-mode .nav-menu a {
+    color: #ffffff;
+}
+
+.dark-mode .link-card,
+.dark-mode .project-card,
+.dark-mode .skill-item,
+.dark-mode .competency-card,
+.dark-mode .contact-form,
+.dark-mode .contact-info,
+.dark-mode .timeline-content {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+.dark-mode .footer {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .footer-section.links a {
+    color: #b0b0b0;
+}
+
+.dark-mode .progress-bar {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .social-links a {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark-mode .social-links a:hover {
+    background-color: var(--primary-color);
+}
+
+.dark-mode .back-to-top {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.dark-mode .dark-mode-toggle label {
+    background: #555;
+}
+/* Dark Mode Projects Page Styles */
+.dark-mode .projects-intro,
+.dark-mode .projects-filter {
+    color: #e0e0e0;
+}
+
+.dark-mode .project-card {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .project-info h3,
+.dark-mode .project-info p {
+    color: #e0e0e0;
+}
+
+.dark-mode .tech-tag {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark-mode .filter-btn {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+}
+
+.dark-mode .filter-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.dark-mode .filter-btn:hover:not(.active) {
+    background-color: #444;
+}
+
+.dark-mode .no-projects {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .cta-section {
+    background-color: #2d2d2d;
+}
+
+.dark-mode .cta-section h2,
+.dark-mode .cta-section p {
+    color: white;
+}
